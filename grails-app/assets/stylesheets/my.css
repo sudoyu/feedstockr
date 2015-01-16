@@ -1,0 +1,66 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require bootstrap.min.flatly
+*/
+
+.padding-3 {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.navbar{
+    border-radius: 0;
+}
+
+a.list-group-item {
+    padding: 0 10px;
+}
+
+td, th {
+    padding: 2px !important;
+}
+
+th {
+    max-width: 10%;
+    word-wrap: normal;
+    border-right: solid 1px #ecf0f1 !important;
+}
+
+th.recent {
+    border-right: solid 3px #e74c3c !important;
+}
+
+img {
+    max-height: 64px;
+}
+
+a.step, a.nextLink, a.prevLink,
+span.currentStep {
+    position: relative;
+    float: left;
+    padding: 10px 15px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #18bc9c;
+    border: 1px solid transparent;
+    margin-left: -1px;
+}
+
+span.currentStep {
+    background-color: #0f7864;
+}
+
+a.step:hover, a.nextLink:hover, a.prevLink:hover,
+span.currentStep:hover {
+    color: #ffffff;
+    background-color: #0f7864;
+    border-color: transparent;
+}
